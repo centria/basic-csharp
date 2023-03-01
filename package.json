@@ -44,7 +44,7 @@
   },
   "devDependencies": {
     "eslint-plugin-jest": "^24.3.6",
-    "prettier": "2.3.2"
+    "prettier": "2.8.4"
   },
   "repository": {
     "type": "git",
