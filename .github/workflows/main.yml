@@ -42,7 +42,7 @@ jobs:
       - uses: actions/checkout@v3
         if: ${{ github.event_name == 'push' && env.SKIP_COMMITS }}
       - name: Bump version and push tag
-        uses: anothrNick/github-tag-action@3840ec22ac98e14d981375e3ae2d8d0392964521
+        uses: anothrNick/github-tag-action@94666f1546f9d0b83c15ac8e2602b66e8abf926b
         if: ${{ github.event_name == 'push' && env.SKIP_COMMITS }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
