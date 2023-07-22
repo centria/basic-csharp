@@ -1835,7 +1835,7 @@ public Money Plus(Money addition)
 ```
 <Note>If the cents would go over 99 (100 or more), the euros should increase as well!</Note>
 
-- create the method `public bool LessThan(Money compared)` that returns true if the money object whose method is called has a greater worth than the money object that is received as the method parameter.
+- create the method `public bool LessThan(Money compared)` that returns true if the money object whose method is called has a lesser worth than the money object that is received as the method parameter.
 
 - Write the method `public Money Minus(Money decreaser)` that returns a new money object worth the difference of the object whose method was called and the object received as the parameter. If the difference would be negative, the worth of the created money object is set to 0.
 
