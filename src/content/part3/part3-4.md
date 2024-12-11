@@ -320,7 +320,7 @@ Enter password:
 Incorrect username or password!
 ```
 
-<Note>In read life login should not be implemented like this! This is just an exercise.</Note>
+<Note>In real life login should not be implemented like this! This is just an exercise.</Note>
 
 
 </Exercise>
